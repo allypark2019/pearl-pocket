@@ -1,14 +1,14 @@
 import { useEffect, useState } from 'react';
-import BootSequence from '@/components/BootSequence';
-import StatusBar from '@/components/StatusBar';
-import DeviceFrame from '@/components/DeviceFrame';
-import HomeScreen from '@/components/HomeScreen';
-import ModuleShell from '@/components/ModuleShell';
-import EncyclopediaView from '@/components/modules/EncyclopediaView';
-import LabView from '@/components/modules/LabView';
-import CreaturesView from '@/components/modules/CreaturesView';
-import LogView from '@/components/modules/LogView';
-import { MODULES, type ModuleId } from '@/data/modules';
+import BootSequence from './BootSequence';
+import StatusBar from './StatusBar';
+import DeviceFrame from './DeviceFrame';
+import HomeScreen from './HomeScreen';
+import ModuleShell from './ModuleShell';
+import EncyclopediaView from './EncyclopediaView';
+import LabView from './LabView';
+import CreaturesView from './CreaturesView';
+import LogView from './LogView';
+import { MODULES, type ModuleId } from './modules';
 
 type Screen = 'boot' | 'home' | ModuleId;
 
