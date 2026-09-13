@@ -20,3 +20,5 @@ layer so the sample repository can later be replaced by local SQLite.
 - `npm run lint`
 
 All three commands passed when this package was created.
+
+<!-- Deployment trigger: Vercel initial production build -->
